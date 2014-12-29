@@ -1,0 +1,64 @@
+a {
+  text-decoration: none;
+  /*background: url('../img/link_underline.png') repeat-x 100% 100%;*/
+}
+a.cat1:link,
+a.cat1:visited {
+  color: #395553;
+  text-decoration: none;
+}
+a.cat1:hover,
+a.cat1:active {
+  color: #517d7a;
+  text-decoration: none;
+}
+a.cat2:link,
+a.cat2:visited {
+  color: #5c6933;
+  text-decoration: none;
+}
+a.cat2:hover,
+a.cat2:active {
+  color: #9ea76b;
+  text-decoration: none;
+}
+a.cat3:link,
+a.cat3:visited {
+  color: #2b4144;
+  text-decoration: none;
+}
+a.cat3:hover,
+a.cat3:active {
+  color: #465694;
+  text-decoration: none;
+}
+a.cat4:link,
+a.cat4:visited {
+  color: #232b4a;
+  text-decoration: none;
+}
+a.cat4:hover,
+a.cat4:active {
+  color: #6c7368;
+  text-decoration: none;
+}
+a.cat5:link,
+a.cat5:visited {
+  color: #421919;
+  text-decoration: none;
+}
+a.cat5:hover,
+a.cat5:active {
+  color: #7f2f2f;
+  text-decoration: none;
+}
+a.cat6:link,
+a.cat6:visited {
+  color: #524b10;
+  text-decoration: none;
+}
+a.cat6:hover,
+a.cat6:active {
+  color: #8e821c;
+  text-decoration: none;
+}

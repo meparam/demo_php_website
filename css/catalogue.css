@@ -1,0 +1,25 @@
+#title_block {
+    position: relative;
+    display: inline-block;
+    margin-top: 32px;
+    width: 88%;
+    text-align: right;
+}
+#title {
+    line-height: 140%;
+}
+#content_block {
+    position: relative;
+    display: inline-block;
+    width: 88%;
+    text-align: left;
+    background: #ffffff;
+    z-index: 2;
+}
+#text {
+    padding-top: 16px;
+    background: #ffffff;
+}
+h4.top-h4 {
+    margin-top: 0px;
+}

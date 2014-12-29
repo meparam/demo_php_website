@@ -1,0 +1,133 @@
+.linkblock {
+    position: relative;
+    display: inline-block;
+    margin-top: 64px;
+    min-width: 328px;
+    height: 256px;
+    float: left;
+
+}
+.linkblock.centerlinkblock.threecol {
+    min-width: 336px;
+}
+.linkblock.firstrow {
+    margin-top: 32px;
+}
+.linkblock.leftlinkblock.threecol,
+.linkblock.centerlinkblock.threecol,
+.linkblock.rightlinkblock.threecol {
+    width: 33%;
+}
+.linkblock.leftlinkblock.threecol,
+.linkblock.leftlinkblock.threecol > a > .hover-layer {
+    left: 0;
+    text-align: left;
+}
+.linkblock.centerlinkblock.threecol,
+.linkblock.centerlinkblock.threecol > a > .hover-layer {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.linkblock.rightlinkblock.threecol,
+.linkblock.rightlinkblock.threecol > a > .hover-layer {
+    right: 0;
+    text-align: right;
+}
+.linkblock.leftlinkblock.twocol,
+.linkblock.centerlinkblock.twocol,
+.linkblock.rightlinkblock.twocol {
+    width: 50%;    
+}
+.linkblock.leftlinkblock.twocol,
+.linkblock.centerlinkblock.twocol,
+.linkblock.rightlinkblock.twocol,
+.linkblock.leftlinkblock.twocol > a > .hover-layer,
+.linkblock.centerlinkblock.twocol > a > .hover-layer,
+.linkblock.rightlinkblock.twocol > a > .hover-layer {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.linkblock > a {
+    display: inline-block;
+    height: 256px;
+    width: 320px;
+}
+.linkblock > a > .linkblock-img-block {
+    display: block;
+    height: 208px;
+    width: 100%;
+}
+.linkblock.nothumb > a > .linkblock-img-block {
+    display: none;
+}
+.linkblock > a > .linkblock-img {
+    width: 320px;
+}
+.linkblock > a > .linkblock-title {
+    display: inline-block;
+    padding: 8px 14px 0 14px;
+    width: 292px;
+    height: 40px;
+    background-color: #479272;
+    vertical-align: middle;
+}
+.linkblock > a > .linkblock-title > .linkblock-title-text {
+    position: absolute;
+    background: transparent;
+    z-index: 20;
+    width: 292px;
+    text-align: left;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.linkblock > a > .hover-layer {
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    width: 320px;
+    height: 100%;
+    top: 0;
+    background: rgba(255,255,255,0.2);
+    z-index: 1;
+}
+.linkblock.noTouch > a:hover > .hover-layer {
+    opacity: 1;
+}
+.linkblock.nothumb > a > .linkblock-title {
+    content: '';
+    height: 248px;
+}
+
+@media only screen and (max-width: 1344px) {
+    .linkblock.leftlinkblock.threecol,
+    .linkblock.centerlinkblock.threecol,
+    .linkblock.rightlinkblock.threecol {        
+        width: 50%;
+    }
+    .linkblock.leftlinkblock.threecol,
+    .linkblock.centerlinkblock.threecol,
+    .linkblock.rightlinkblock.threecol,
+    .linkblock.leftlinkblock.threecol > a > .hover-layer,
+    .linkblock.centerlinkblock.threecol > a > .hover-layer,
+    .linkblock.rightlinkblock.threecol > a > .hover-layer {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .linkblock.rightlinkblock.threecol.firstrow {
+        margin-top: 64px;
+    }
+}
